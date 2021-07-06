@@ -1,0 +1,61 @@
+:root {  
+  --accent-1: color-mix(in srgb, white 20%, -moz-accent-color);
+  --accent-2: color-mix(in srgb, white 40%, -moz-accent-color);
+  --accent-3: color-mix(in srgb, white 60%, -moz-accent-color);
+  --accent-4: color-mix(in srgb, white 90%, -moz-accent-color);
+  
+  --highlight-grey-1: rgb(240, 240, 240);
+  --highlight-grey-2: rgb(224, 224, 224);
+
+  --arrowpanel-border-color: var(--highlight-grey-1) !important;
+
+  --autocomplete-popup-highlight-background: var(--highlight-grey-2) !important;
+  --autocomplete-popup-hover-background: var(--highlight-grey-1) !important;
+
+  --button-active-bgcolor: var(--accent-2) !important;
+  --button-bgcolor: var(--highlight-grey-1) !important;
+  --button-hover-bgcolor: var(--accent-3) !important;
+  
+  --checkbox-checked-active-bgcolor: var(--accent-2) !important;
+  --checkbox-checked-bgcolor: -moz-accent-color !important;
+  --checkbox-checked-hover-bgcolor: var(--accent-1) !important;
+
+  --focus-outline-color: -moz-accent-color !important;
+
+  --lwt-accent-color: -moz-accent-color !important;
+  --lwt-selected-tab-background-color:  var(--accent-3) !important;
+  --lwt-toolbar-field-background-color: var(--accent-4) !important;
+  --lwt-toolbar-field-border-color: rgb(190, 190, 190) !important;
+  --lwt-toolbar-field-focus-color: black !important;
+  --lwt-toolbar-field-focus: white !important;
+  --lwt-toolbar-field-highlight-text: white !important;
+  --lwt-toolbar-field-highlight: white !important;
+  --lwt-toolbar-field: white !important;
+  
+  --toolbar-field-non-lwt-bgcolor: #f1f1f1 !important;
+  --toolbar-bgcolor: color-mix(in srgb, white 75%, -moz-accent-color) !important;
+}
+
+#titlebar > .browser-toolbar {
+ background-color: -moz-accent-color !important;
+}
+
+.tabbrowser-tab[selected="true"] {
+  color: black !important;
+}
+
+.tabbrowser-tab {
+  color: white !important;
+}
+
+.titlebar-button {
+  color: white !important;
+}
+
+#tabs-newtab-button {
+  fill: color-mix(in srgb, white 70%, -moz-accent-color) !important;
+}
+
+#tabs-newtab-button:hover {
+  fill: -moz-accent-color !important;
+}
