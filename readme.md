@@ -1,4 +1,4 @@
-These userChrome style sheets are meant to give Firefox 89+ a more native look in Windows by integrating your Windows accent color into the browser chrome.
+These userChrome style sheets are meant to give the new Proton UI introduced in Firefox 89 a more native look in Windows by integrating your Windows accent color into the browser chrome.
 
 These styles are not fully comprehensive, and may not look perfect with all possible accent colors in Windows.
 
