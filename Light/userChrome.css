@@ -1,52 +1,48 @@
 :root {  
   --accent-0: color-mix(in srgb, black 0%, -moz-accent-color);
-  --accent-1: color-mix(in srgb, white 15%, -moz-accent-color);
-  --accent-2: color-mix(in srgb, white 30%, -moz-accent-color);
-  --accent-3: color-mix(in srgb, white 40%, -moz-accent-color);
-  --accent-4: color-mix(in srgb, white 60%, -moz-accent-color);
-  
-  
-  --arrowpanel-border-color: var(--accent-1) !important;
-  --arrowpanel-background: var(--accent-0) !important;
+  --accent-1: color-mix(in srgb, white 30%, -moz-accent-color);
+  --accent-2: color-mix(in srgb, white 60%, -moz-accent-color);
+  --accent-3: color-mix(in srgb, white 75%, -moz-accent-color);
+  --accent-4: color-mix(in srgb, white 90%, -moz-accent-color);
 
-  --autocomplete-popup-highlight-background: var(--accent-2) !important;
-  --autocomplete-popup-hover-background: var(--accent-1) !important;
-  --autocomplete-popup-separator-color: rgba(249,249,250,.1) !important;
+  --arrowpanel-border-color: var(--accent-4) !important;
 
-  --button-active-bgcolor: var(--accent-3) !important;
-  --button-bgcolor: var(--accent-1) !important;
-  --button-hover-bgcolor: var( --accent-2) !important;
+  --autocomplete-popup-highlight-background: var(--accent-3) !important;
+  --autocomplete-popup-hover-background: var(--accent-4) !important;
+  --autocomplete-popup-separator-color: var(--accent-4) !important;
+
+  --button-active-bgcolor: var(--accent-1) !important;
+  --button-bgcolor: var(--accent-4) !important;
+  --button-hover-bgcolor: var(--accent-2) !important;
   
-  --chrome-content-separator-color: var(--accent-0) !important;
-
-  --checkbox-border-color: var(--accent-4) !important;
-  --checkbox-checked-active-bgcolor: var(--accent-2) !important;
+  --chrome-content-separator-color: var(--accent-2) !important;
+  
+  --checkbox-border-color: var(--accent-1) !important;
+  --checkbox-checked-active-bgcolor: var(--accent-1) !important;
   --checkbox-checked-bgcolor: -moz-accent-color !important;
   --checkbox-checked-color: var(--accent-4) !important;
-  --checkbox-checked-hover-bgcolor: var(--accent-2) !important;
-  --checkbox-unchecked-active-bgcolor: var(--accent-2) !important;
-  --checkbox-unchecked-bgcolor: var(--accent-1) !important;
-  --checkbox-unchecked-hover-bgcolor: var(--accent-2) !important;
+  --checkbox-checked-hover-bgcolor: var(--accent-1) !important;
+  --checkbox-unchecked-active-bgcolor: var(--accent-1) !important;
+  --checkbox-unchecked-bgcolor: var(--accent-2) !important;
+  --checkbox-unchecked-hover-bgcolor: var(--accent-1) !important;
 
-  --focus-outline-color: var(--accent-4) !important;
-
-  --input-bgcolor: var(--accent-2) !important;
-  --input-border-color: var(--accent-2) !important;
+  --focus-outline-color: -moz-accent-color !important;
+  
+  --input-bgcolor: var(--accent-4) !important;
+  --input-border-color: var(--accent-4) !important;
 
   --lwt-accent-color: -moz-accent-color !important;
-  --lwt-selected-tab-background-color:  var(--lwt-toolbar-field-background-color) !important;
-  --lwt-toolbar-field-background-color: var(--accent-2) !important;
-  --lwt-toolbar-field-border-color: rgb(190, 190, 190) !important;
+  --lwt-selected-tab-background-color:  var(--accent-3) !important;
+  --lwt-toolbar-field-background-color: var(--accent-4) !important
   --lwt-toolbar-field-focus-color: black !important;
-  --lwt-toolbar-field-focus: var(--accent-2) !important;
+  --lwt-toolbar-field-focus: white !important;
   --lwt-toolbar-field-highlight-text: white !important;
-  --lwt-toolbar-field-highlight: var(--accent-2) !important;
+  --lwt-toolbar-field-highlight: var(--accent-1) !important;
   --lwt-toolbar-field: white !important;
   
-  --toolbar-field-focus-background-color: var(--accent-0) !important;
-  --toolbar-field-non-lwt-bgcolor: var(--accent-4) !important;
-  --toolbar-bgcolor: var(--accent-1) !important;
-  --toolbar-field-background-color: var(--accent-2) !important;
+  --toolbar-field-focus-background-color: white !important;
+  --toolbar-bgcolor: var(--accent-3) !important;
+  --toolbar-field-background-color: var(--accent-4) !important;
 }
 
 #titlebar > .browser-toolbar {
@@ -61,6 +57,18 @@
   color: white !important;
 }
 
+.titlebar-button {
+  color: white !important;
+}
+
+#tabs-newtab-button {
+  fill: color-mix(in srgb, white 70%, -moz-accent-color) !important;
+}
+
+#tabs-newtab-button:hover {
+  fill: -moz-accent-color !important;
+}
+
 input:focus {
-  background-color: -moz-accent-color !important;
+  background-color: white !important;
 }
