@@ -1,9 +1,9 @@
 :root {  
-  --accent-0: color-mix(in srgb, black 0%, -moz-accent-color);
-  --accent-1: color-mix(in srgb, white 15%, -moz-accent-color);
-  --accent-2: color-mix(in srgb, white 30%, -moz-accent-color);
-  --accent-3: color-mix(in srgb, white 40%, -moz-accent-color);
-  --accent-4: color-mix(in srgb, white 60%, -moz-accent-color);
+  --accent-0: color-mix(in srgb, black 0%, AccentColor);
+  --accent-1: color-mix(in srgb, white 15%, AccentColor);
+  --accent-2: color-mix(in srgb, white 30%, AccentColor);
+  --accent-3: color-mix(in srgb, white 40%, AccentColor);
+  --accent-4: color-mix(in srgb, white 60%, AccentColor);
   
   
   --arrowpanel-border-color: var(--accent-1) !important;
@@ -21,7 +21,7 @@
 
   --checkbox-border-color: var(--accent-4) !important;
   --checkbox-checked-active-bgcolor: var(--accent-2) !important;
-  --checkbox-checked-bgcolor: -moz-accent-color !important;
+  --checkbox-checked-bgcolor: AccentColor !important;
   --checkbox-checked-color: var(--accent-4) !important;
   --checkbox-checked-hover-bgcolor: var(--accent-2) !important;
   --checkbox-unchecked-active-bgcolor: var(--accent-2) !important;
@@ -33,7 +33,7 @@
   --input-bgcolor: var(--accent-2) !important;
   --input-border-color: var(--accent-2) !important;
 
-  --lwt-accent-color: -moz-accent-color !important;
+  --lwt-accent-color: AccentColor !important;
   --lwt-selected-tab-background-color:  var(--lwt-toolbar-field-background-color) !important;
   --lwt-toolbar-field-background-color: var(--accent-2) !important;
   --lwt-toolbar-field-border-color: rgb(190, 190, 190) !important;
@@ -50,7 +50,7 @@
 }
 
 #titlebar > .browser-toolbar {
- background-color: -moz-accent-color !important;
+ background-color: AccentColor !important;
 }
 
 .tabbrowser-tab[selected="true"] {
@@ -62,5 +62,5 @@
 }
 
 input:focus {
-  background-color: -moz-accent-color !important;
+  background-color: AccentColor !important;
 }
